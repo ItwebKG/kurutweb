@@ -12,7 +12,7 @@ require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const publicDomain = process.env.PUBLIC_DOMAIN || "https://vasya010-kurut01-c182.twc1.net";
+const publicDomain = process.env.PUBLIC_DOMAIN || "https://itwebkg-kurutweb-f5c5.twc1.net";
 const jwtSecret = process.env.JWT_SECRET || "your_jwt_secret_123";
 
 // Valid roles for validation22
@@ -142,7 +142,7 @@ function buildPasswordResetEmail({ fullName, resetLink }) {
 
 
 const corsOrigins = (process.env.FRONTEND_ORIGIN ||
-  "http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173,https://kurutnet.online,https://vasya010-kurut01-c182.twc1.net"
+  "http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173,https://kurutnet.online,https://itwebkg-kurutweb-f5c5.twc1.net"
 )
   .split(",")
   .map((s) => s.trim())

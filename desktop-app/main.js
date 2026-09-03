@@ -12,7 +12,7 @@ function winBackgroundMaterial() {
   return undefined;
 }
 
-const DEFAULT_BASE_URL = "https://vasya010-kurut01-710e.twc1.net";
+const DEFAULT_BASE_URL = "https://itwebkg-kurutweb-f5c5.twc1.net";
 
 let store = null;
 /** @type {import("electron").BrowserWindow | null} */
